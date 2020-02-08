@@ -3,16 +3,16 @@
 - Дан. 5
 - Значение вашего имени
 - Может ли у Бога закончиться терпение?
-- ...
-
-<b>Test</b>
 
 <script>
-  console.log("Test");
+  var elements = document.getElementsByClassName(className);
+  if (elements.length > 0) {
+      elements[0].parentNode.removeChild(elements[0]);
+  }
 </script>
 
 <style>
-  .site-footer-credits {
+  .site-footer {
     visibility: hidden;
   }
 </style>
