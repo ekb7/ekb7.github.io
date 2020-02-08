@@ -8,5 +8,11 @@
 <b>Test</b>
 
 <script>
-console.log("Test");
+  console.log("Test");
 </script>
+
+<style>
+  .site-footer-credits {
+    visibility: hidden;
+  }
+</style>
