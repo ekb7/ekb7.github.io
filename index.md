@@ -6,6 +6,7 @@
 
 <script>
   var elements = document.getElementsByClassName("site-footer");
+  console.log(elements);
   if (elements.length > 0) {
       elements[0].parentNode.removeChild(elements[0]);
   }
