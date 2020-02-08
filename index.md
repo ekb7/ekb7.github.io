@@ -5,7 +5,7 @@
 - Может ли у Бога закончиться терпение?
 
 <script>
-  var elements = document.getElementsByClassName(className);
+  var elements = document.getElementsByClassName("site-footer");
   if (elements.length > 0) {
       elements[0].parentNode.removeChild(elements[0]);
   }
